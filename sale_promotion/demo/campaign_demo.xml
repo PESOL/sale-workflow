@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="campaign_01" model="sale.campaign">
+            <field name="name">Campaign01</field>
+            <field name="start_date">01/01/2018</field>
+            <field name="end_date">31/12/2024</field>
+            <field name="pricelist_ids" eval="[(6,0,[ref('product.list0')])]"/>
+        </record>
+    </data>
+</odoo>
